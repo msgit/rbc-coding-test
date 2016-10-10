@@ -1,6 +1,5 @@
 package com.msadal;
 
-import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.msadal.domain.Fruit;
 import org.apache.log4j.Logger;
@@ -51,5 +50,6 @@ public class AppRunner {
         double total = basketVisitor.getTotalPrice();
 
         log.info("Total price for given basket is " + total);
+        System.out.println("Total price for given basket is " + total);
     }
 }
